@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47632" started-at="2024-06-12T12:33:04 IST" finished-at="2024-06-12T12:33:51 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47632" started-at="2024-06-12T12:33:04 IST" finished-at="2024-06-12T12:33:51 IST">
+      <class name="newbasics.logout">
+        <test-method status="PASS" signature="main()[pri:0, instance:newbasics.logout@307f6b8c]" name="main" duration-ms="26310" started-at="2024-06-12T12:33:25 IST" finished-at="2024-06-12T12:33:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- newbasics.logout -->
+      <class name="newbasics.login">
+        <test-method status="PASS" signature="main()[pri:0, instance:newbasics.login@80503]" name="main" duration-ms="21235" started-at="2024-06-12T12:33:04 IST" finished-at="2024-06-12T12:33:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- newbasics.login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
