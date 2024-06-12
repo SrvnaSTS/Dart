@@ -38,7 +38,7 @@ public class login {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement welcomeTextElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Welcome onboard')]")));
  
-        // Check if "Welcome onboard" text is present
+        // Check if "Welcome osnboard" text is present
         if (welcomeTextElement.isDisplayed()) {
             System.out.println("Pass");
         } else {
