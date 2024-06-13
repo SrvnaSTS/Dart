@@ -53,8 +53,9 @@ public class login {
 
         // Take a screenshot
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        // Save the screenshot to a desired location
-        FileHandler.copy(screenshot, new File("./Screenshots/welcome_onboard.png"));
+        // Save the screenshot to a relative path
+        String relativePath = "./target/screenshots/welcome_onboard.png";
+        FileHandler.copy(screenshot, new File(relativePath));
 
         // Close the browser
         driver.quit();
