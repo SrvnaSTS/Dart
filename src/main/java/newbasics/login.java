@@ -36,7 +36,7 @@ public class login {
  
         // Wait for the page to load after login
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement welcomeTextElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Welcome onoard')]")));
+        WebElement welcomeTextElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Welcome onboard')]")));
  
         // Check if "Welcome onboard" text is present
         if (welcomeTextElement.isDisplayed()) {
