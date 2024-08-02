@@ -26,26 +26,26 @@ public class login {
     public void testLogin() {
         driver.get("https://signadart.ai/");
 
-       
+        // Wait for the Login button to be clickable and click it
         WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Login']")));
         loginButton.click();
 
-    
+        // Wait for the email input to be visible and enter the email
         WebElement emailInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='userName' and @placeholder='Email']")));
         emailInput.sendKeys("Testingteam@signatech.com");
 
-     
+        // Wait for the password input to be visible and enter the password
         WebElement passwordInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='password' and @placeholder='Password']")));
         passwordInput.sendKeys("test@123");
 
-
+        // Wait for the Sign In button to be clickable and click it
         WebElement signInButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Sign In']")));
         signInButton.click();
 
-     
+        // Wait for the "Welcome onboard" text to be visible
         WebElement welcomeTextElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Welcome onboard')]")));
 
-       
+        // Check if "Welcome onboard" text is present
         if (welcomeTextElement.isDisplayed()) {
             System.out.println("Pass");
         } else {
