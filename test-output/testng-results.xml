@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="47659" started-at="2024-06-28T17:26:09 IST" finished-at="2024-06-28T17:26:56 IST">
+  <suite name="Default suite" duration-ms="23985" started-at="2024-08-02T11:19:19 IST" finished-at="2024-08-02T11:19:43 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="47659" started-at="2024-06-28T17:26:09 IST" finished-at="2024-06-28T17:26:56 IST">
-      <class name="newbasics.logout">
-        <test-method status="PASS" signature="main()[pri:0, instance:newbasics.logout@307f6b8c]" name="main" duration-ms="27917" started-at="2024-06-28T17:26:29 IST" finished-at="2024-06-28T17:26:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- main -->
-      </class> <!-- newbasics.logout -->
+    <test name="Default test" duration-ms="23985" started-at="2024-08-02T11:19:19 IST" finished-at="2024-08-02T11:19:43 IST">
       <class name="newbasics.login">
-        <test-method status="PASS" signature="main()[pri:0, instance:newbasics.login@80503]" name="main" duration-ms="19674" started-at="2024-06-28T17:26:09 IST" finished-at="2024-06-28T17:26:29 IST">
+        <test-method status="PASS" signature="main()[pri:0, instance:newbasics.login@2f943d71]" name="main" duration-ms="23916" started-at="2024-08-02T11:19:19 IST" finished-at="2024-08-02T11:19:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
       </class> <!-- newbasics.login -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
