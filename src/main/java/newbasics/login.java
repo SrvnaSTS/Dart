@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class login {
     @Test
-    public void main() throws InterruptedException {
+    public void loginv1() throws InterruptedException {
         
         System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
         
@@ -43,7 +43,7 @@ public class login {
         
         WebElement welcomeTextElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Welcome onboard')]")));
  
-        // Check if "Welcome onboard" text is present
+        // Check if "Welcome onboaard" text is present
         if (welcomeTextElement.isDisplayed()) {
             System.out.println("Pass");
         } else {

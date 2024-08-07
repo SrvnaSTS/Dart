@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class logout {
     @Test
-    public void main() throws InterruptedException {
+    public void logoutv1() throws InterruptedException {
        
         System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
         
