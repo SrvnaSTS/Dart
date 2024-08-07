@@ -6,8 +6,8 @@ xsi:schemaLocation="
 http://maven.apache.org/POM/4.0.0
 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 <modelVersion>4.0.0</modelVersion>
-<groupId>QSpider</groupId>
-<artifactId>Basic_Selenium</artifactId>
+<groupId>SignaTech</groupId>
+<artifactId>Signadart</artifactId>
 <version>0.0.1-SNAPSHOT</version>
 <dependencies>
 <dependency>
