@@ -1,44 +1,48 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>Signatechtesting</groupId>
-    <artifactId>Testsuites</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <dependencies>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-server</artifactId>
-            <version>3.141.59</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>5.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.4.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.adiralashiva8</groupId>
-            <artifactId>testng-metrics</artifactId>
-            <version>1.6</version>
-        </dependency>
-    </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+<project xmlns="
+http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="
+http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+http://maven.apache.org/POM/4.0.0
+https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>QSpider</groupId>
+<artifactId>Basic_Selenium</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+<dependencies>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-server</artifactId>
+<version>3.141.59</version>
+</dependency>
+<dependency>
+  <groupId>com.github.adiralashiva8</groupId>
+  <artifactId>testng-metrics</artifactId>
+  <version>1.6</version>
+</dependency>
+<dependency>
+<groupId>io.github.bonigarcia</groupId>
+<artifactId>webdrivermanager</artifactId>
+<version>5.0.3</version>
+</dependency>
+<dependency>
+<groupId>org.testng</groupId>
+<artifactId>testng</artifactId>
+<version>7.4.0</version>
+</dependency>
+</dependencies>
+<build>
+<plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-surefire-plugin</artifactId>
+<version>3.0.0-M5</version>
+<configuration>
+<suiteXmlFiles>
+<suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+</suiteXmlFiles>
+</configuration>
+</plugin>
+</plugins>
+</build>
 </project>
