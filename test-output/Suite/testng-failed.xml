@@ -4,16 +4,16 @@
   <parameter name="testng.metrics.report.logo" value="file:///C:/Users/saravanakumar.a/Downloads/logo-CQ-1UGi6.png"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="newbasics.login">
-        <methods>
-          <include name="main"/>
-        </methods>
-      </class> <!-- newbasics.login -->
       <class name="newbasics.logout">
         <methods>
-          <include name="main"/>
+          <include name="logoutv1"/>
         </methods>
       </class> <!-- newbasics.logout -->
+      <class name="newbasics.login">
+        <methods>
+          <include name="loginv1"/>
+        </methods>
+      </class> <!-- newbasics.login -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
