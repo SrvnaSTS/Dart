@@ -41,7 +41,7 @@ public class login {
         signInButton.click();
  
         
-        WebElement welcomeTextElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Welcome onboard')]")));
+        WebElement welcomeTextElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Wee onboard')]")));
  
         // Check if "Welcome onboard" text is present
         if (welcomeTextElement.isDisplayed()) {
